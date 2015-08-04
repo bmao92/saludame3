@@ -5,6 +5,6 @@ get '/'  do
 end
 
 get '/hola'do 
-	@nombre= params[:nombre].capitalize
+	@nombre= params[:nombre]
 	erb :hola
 end
